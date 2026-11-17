@@ -1,4 +1,4 @@
-🔗ASS-1-MVA
+ASS-1-MVA
 
 
  Sampling and Sampling Error
