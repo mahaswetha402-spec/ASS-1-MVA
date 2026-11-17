@@ -1,20 +1,20 @@
-# Sampling and Sampling Error
+ Sampling and Sampling Error
 
-## Project Overview
+ Project Overview
 
 This project explains sampling, sampling methods, and different types of
 errors that can occur when using a sample to understand a population. It
 also uses Python to compare Simple Random Sampling and Stratified
 Sampling and to study how sample size affects sampling error.
 
-## Topics Covered
+Topics Covered
 
-### 1. Sampling
+ 1. Sampling
 
 Sampling is the process of collecting data from a representative subset
 of a population instead of studying every individual.
 
-### 2. Probability Sampling
+2. Probability Sampling
 
 -   **Simple Random Sampling:** Every individual has an equal chance of
     being selected.
@@ -30,12 +30,12 @@ of a population instead of studying every individual.
 Represents different population characteristics. - Helps produce
 accurate sample representations.
 
-### 3. Non-Probability Sampling
+3. Non-Probability Sampling
 
 The notebook also introduces non-probability sampling, where individuals
 do not have an equal chance of selection.
 
-### 4. Types of Errors in Sampling
+4. Types of Errors in Sampling
 
 -   **Sampling Error:** The difference between a sample estimate and the
     actual population value.
@@ -46,7 +46,7 @@ do not have an equal chance of selection.
 -   **Measurement Error:** Happens when the measurement method or tool
     does not measure the correct value.
 
-## Python Implementation
+ Python Implementation
 
 The notebook uses a synthetic population of 10,000 individuals. It
 creates two groups (`low` and `high`) and generates income values using
@@ -59,7 +59,7 @@ their absolute errors against the population mean. 5. Repeats random
 sampling for different sample sizes and plots the mean absolute sampling
 error.
 
-## Sampling Error vs Sample Size
+Sampling Error vs Sample Size
 
 The notebook tests these sample sizes:
 
@@ -70,7 +70,7 @@ absolute sampling error. The notebook introduces the relationship that
 expected absolute sampling error decreases as sample size increases,
 approximately following `σ / √n`.
 
-## Machine Learning / AI Connection
+ Machine Learning / AI Connection
 
 The notebook connects sampling concepts to machine learning:
 
@@ -84,14 +84,14 @@ The notebook connects sampling concepts to machine learning:
 -   **Data Leakage:** The notebook discusses how an unrepresentative
     test set can affect evaluation of future data.
 
-## Libraries Used
+ Libraries Used
 
 -   Python
 -   NumPy
 -   Pandas
 -   Matplotlib
 
-## How to Run
+How to Run
 
 1.  Download or clone this repository.
 2.  Open the notebook file in Jupyter Notebook, JupyterLab, or Google
@@ -105,7 +105,7 @@ Install the required libraries with:
 pip install numpy pandas matplotlib
 ```
 
-## Repository Structure
+ Repository Structure
 
 ``` text
 Sampling-and-Sampling-Error/
@@ -113,7 +113,7 @@ Sampling-and-Sampling-Error/
 └── sampling_and_sampling_error.ipynb
 ```
 
-## Conclusion
+ Conclusion
 
 This project demonstrates sampling methods and sampling errors through
 Python examples. It compares Simple Random Sampling with Stratified
